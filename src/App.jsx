@@ -21,6 +21,7 @@ import {
   Brain,
   ScanLine
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // ─── Error Boundary ──────────────────────────────────────────────
 
@@ -816,6 +817,7 @@ function App() {
           <p className="footer-sub">Protected by Google & URLhaus Firewalls</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
